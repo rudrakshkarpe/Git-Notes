@@ -2,7 +2,7 @@
 
 ## Deletions Commands
 
-### deleting a .git folder from a repo
+### Deleting a .git folder from a repo
 - rm -rf .git 
 
 ### To add all changes to the staging area
