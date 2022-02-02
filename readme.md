@@ -5,7 +5,7 @@
 ### deleting a .git folder from a repo
 - rm -rf .git 
 
-## To add all changes to the staging area
+### To add all changes to the staging area
 - git add --a 
 
 ## Git ignore commands
