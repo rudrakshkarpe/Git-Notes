@@ -86,7 +86,7 @@ git rm --cached db.accdb
 ## Push Commands 
 git push -u origin master
 
-## Alicaing commands
+## Aliacing commands
 git config --global alias.unstage 'restore --staged --'
 git config --global alias.last 'log -p -1'
 
