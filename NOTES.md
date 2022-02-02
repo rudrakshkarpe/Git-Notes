@@ -1,39 +1,51 @@
-Git commands
+# GIT-COMMANDS
 
-rm -rf .git --> to delete traking a got git repo.
+### Deletions Commands
+- deleting a .git folder from a repo
+rm -rf .git 
 
-git add --a --> to add all changes to the staging area
+### To add all changes to the staging area
+git add --a 
 
-touch .gitignore
-error.log
-*.log
-dir/
-/dir/ to track only outer dir it'll skip the inner one
-git by defaultly ignores the blank directories
+### Git ignore commands
+- touch .gitignore
+- error.log
+- *.log
+- dir/
+- /dir/ to track only outer dir it'll skip the inner one
+- git by defaultly ignores the blank directories
 
-git diff will compare the working  directory and staging area
+### comarison commands
 
-git diff --staged
+- git diff will compare the working  directory and staging area
 
-git commit -a -m "your comment"
-This will commit all the tracked files 
-untracked file needs to be added specially
+- git diff --staged
 
-git rm file.txt --> remove
-git mv file.txt file_01.txt ---> to rename files
+### commit cmmands
+- git commit -a -m "your comment"
+- This will commit all the tracked files untracked file needs to be added specially
+- git commit --amend  ---> to make changes in the commit
 
-git rm --cached db.accdb --> To untrack the file
+### Basic Commands 
 
-git log -p --> to check commits + files deleted
-git log -3 --->or -2 to check specific commits
-git log -p -1 ---> to check individual commits
-git log --stat ---> to check more specif on commits
-git log --pretty=oneline
-git log --pretty=short
-git log --pretty=full
-git log --since=2.days --> filter according to time
-git log --since=2.year/months/years
- git log pretty=format:"%h --%an or ae"
+- git rm file.txt --> remove
+- git mv file.txt file_01.txt ---> to rename files
+
+-  Untracking files
+git rm --cached db.accdb 
+
+### git log commands
+
+- git log -p --> to check commits + files deleted
+- git log -3 --->or -2 to check specific commits
+- git log -p -1 ---> to check individual commits
+- git log --stat ---> to check more specif on commits
+- git log --pretty=oneline
+- git log --pretty=short
+- git log --pretty=full
+- git log --since=2.days --> filter according to time
+- git log --since=2.year/months/years
+- git log pretty=format:"%h --%an or ae"
 
 git commit --amend  ---> to make changes in the commit
 git restore --staged ---> To remove any file from staging area
