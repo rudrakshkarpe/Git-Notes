@@ -1,4 +1,6 @@
-# GIT-COMMANDS
+# GIT-COMMANDS             
+
+- gotta update withthe modified commands
 
 ## Deletions Commands
 
