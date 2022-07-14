@@ -1,6 +1,4 @@
 # Git-Notes by rudrakshkarpe 
----
-
 
 ## Deletions Commands
 
