@@ -1,4 +1,4 @@
-# Git-Notes by @rudrakshkarpe 
+# Git-Notes by rudrakshkarpe 
 ---
 
 
