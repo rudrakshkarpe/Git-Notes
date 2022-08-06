@@ -29,7 +29,6 @@
 - git commit --amend   to make changes in the commit
 
 ## Basic Commands 
-
 - git rm file.txt --> remove
 - git mv file.txt file_01.txt  to rename files
 
