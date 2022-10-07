@@ -1,4 +1,4 @@
-# ![Git-Notes](https://github.com/rudrakshkarpe/Git-Notes/)  
+# [Git-Notes](https://github.com/rudrakshkarpe/Git-Notes/)  
 
 ## Deletions Commands
 
