@@ -1,7 +1,7 @@
 ## *Welcome to Rudraksh's GitBook! 📖*
 
-- [Essential-git-commands](essential-git-commands.md)
+- [Essential-git-commands](/essential-git-commands.md)
 
-- [Intermidiate-git-commands](essential-git-commands.md)
+- [Intermidiate-git-commands](/essential-git-commands.md)
 
-- [Tips 💡](tips.md)
+- [Tips 💡](/tips.md)
