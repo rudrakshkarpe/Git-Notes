@@ -1,32 +1,36 @@
-# [Git-Notes](https://github.com/rudrakshkarpe/Git-Notes/)  
+##
+### Delete a .git folder from a repo
+```rm -rf .git ```
 
-## Deletions Commands
-
-### Deleting a .git folder from a repo
-- rm -rf .git 
-
-### To add all changes to the staging area
-- git add --a 
+### Add all changes to the staging area
+```git add --a``` OR ```git add .```
 
 ## Git ignore commands
+```
 - touch .gitignore
 - error.log
 - *.log
 - dir/
 - /dir/ to track only outer dir it'll skip the inner one
 - git by defaultly ignores the blank directories
-
-## Comparison commands
+```
 
 ### To compare the working  directory and staging area
+```
 - git diff 
-
+```
+```
 - git diff --staged
-
+```
 ## Commit cmmands
-- git commit -a -m "your comment"
 - This will commit all the tracked files untracked file needs to be added specially
-- git commit --amend   to make changes in the commit
+```
+- git commit -a -m "your comment"
+```
+
+```
+git commit --amend -m "your comment message" | to change the commit message```
+```
 
 ## Basic Commands 
 - git rm file.txt --> remove
