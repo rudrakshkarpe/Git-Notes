@@ -5,7 +5,7 @@
 ### Add all changes to the staging area
 ```git add --a``` OR ```git add .```
 
-## Git ignore commands
+### Git ignore commands
 ```
 - touch .gitignore
 - error.log
@@ -22,7 +22,7 @@
 ```
 - git diff --staged
 ```
-## Commit cmmands
+### Commit cmmands
 - This will commit all the tracked files untracked file needs to be added specially
 ```
 - git commit -a -m "your comment"
@@ -32,11 +32,11 @@
 git commit --amend -m "your comment message" | to change the commit message```
 ```
 
-## Basic Commands 
+### Basic Commands 
 - git rm file.txt --> remove
 - git mv file.txt file_01.txt  to rename files
 
-## Untracking files
+### Untracking files
 
 - git rm --cached db.accdb 
 
