@@ -1,13 +1,11 @@
-# GIT-COMMANDS             
-
-- gotta update withthe modified commands
+# [Git-Notes](https://github.com/rudrakshkarpe/Git-Notes/)  
 
 ## Deletions Commands
 
-### deleting a .git folder from a repo
+### Deleting a .git folder from a repo
 - rm -rf .git 
 
-## To add all changes to the staging area
+### To add all changes to the staging area
 - git add --a 
 
 ## Git ignore commands
@@ -31,7 +29,6 @@
 - git commit --amend   to make changes in the commit
 
 ## Basic Commands 
-
 - git rm file.txt --> remove
 - git mv file.txt file_01.txt  to rename files
 
