@@ -1,4 +1,3 @@
-##
 ### Delete a .git folder from a repo
 ```rm -rf .git ```
 
@@ -36,7 +35,7 @@ git commit --amend -m "your comment message" | to change the commit message```
 - git rm file.txt --> remove
 - git mv file.txt file_01.txt  to rename files
 
-### Untracking files
+## Untracking files
 
 - git rm --cached db.accdb 
 
